@@ -1,0 +1,32 @@
+.container {
+    justify-content: center;
+   
+}
+.row {
+    margin-top: 10px;
+
+}
+
+
+.row .card {
+    margin: 20px;
+   
+}
+.card-body ul {
+    font-size: 14px;
+    line-height: 1.8;
+    list-style-position: outside;
+
+}
+.card-body h1{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+   
+}
+.card-body ol {
+    font-size: 12px;
+    line-height: 1.2;
+}
+

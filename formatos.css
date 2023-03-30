@@ -1,0 +1,86 @@
+/* reset */
+/** {margin: 0;padding: 0; font-size: 100%; box-sizing: border-box;}
+div, ul {list-style: none;}
+a { text-decoration: none; cursor: pointer; opacity: 0,9;}*/
+
+
+body {
+    background-color: #ea937b;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    overflow-y: auto;
+
+}
+header
+
+.menu {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+    top: 0;
+    left: 0; 
+    padding: 15px;
+  
+}
+.menu ul {
+    display: flex;} 
+
+.menu ul li a {
+    color: white;
+    margin-left: 15px; /*espaço entre os links*/
+    font-size: 20px;}
+   
+
+.central {
+    display: flex;
+    min-height: 80vh; /*não sei, pesquisar*/
+    background-size: cover; /*não sei, pesquisar*/
+    justify-content: center;/*alinha a direcão que está sendo exibida, */
+    align-items: center;
+    text-align: center;}
+    /*flex-direction: column;*/
+
+.central img {
+    mix-blend-mode: multiply;
+    width: 70px;
+    display: inline-block;
+   
+}
+    
+
+
+/*#paragrafo_02 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;  
+}*/
+
+.rodape_final {
+    /*display: flex;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+    align-items: flex-end;    
+    background-color: black;
+    color: white;
+    text-align: center;*/
+ 
+    
+    background-color: black; 
+    align-items: center; 
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;  
+}

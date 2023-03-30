@@ -1,0 +1,18 @@
+/* reset 
+* {margin: 0;padding: 0; font-size: 100%; box-sizing: border-box;}
+div, ul {list-style: none;}
+a { text-decoration: none; cursor: pointer; opacity: 0,9;}*/
+
+
+.efetue {
+    margin: 25px;
+    font-size: 40px;
+}
+
+.row {
+    margin-left: 20px;
+    font-size: 20px;
+}
+#inputUF, #inputCidade, #inputComplement, #inputAddress, #inputNome {
+    text-transform: uppercase;
+}
